@@ -10,7 +10,7 @@ int main(void) {
     n2 = n*n;
     n3 = n2*n2;
 
-    printf("n = %d, n squared = %d, n cubed = %d\n", n, n2, n3);  // 这里少个 ;
+    printf("n = %d, n squared = %d, n2 squared = %d\n", n, n2, n3);  // 这里少个 ;，并且文字释义解释错误, n2*n2是n的四次方
 
     return 0;
 }
